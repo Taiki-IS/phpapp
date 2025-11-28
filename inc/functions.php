@@ -4,7 +4,7 @@ function str2html(string $string) :string {
 }
 function db_open() :PDO {
     $user = "phpuser";
-    $password = "Is20050119"; //P172 で生成したパスワードを入力
+    $password = "php_password"; //P172 で生成したパスワードを入力
     $opt = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_EMULATE_PREPARES => false,
